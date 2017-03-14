@@ -1,0 +1,504 @@
+html, body{
+	width:100%;
+	height: 100%;
+	background-color: #DACFBF;
+}
+
+p{
+	font-family: 'PT Serif', serif;
+}
+
+li{
+	font-family: 'PT Serif', serif;
+	list-style-type: none;
+	text-decoration: none;
+}
+
+.page-wrapper{;
+	width: 89.125%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.logo{
+	display: flex;
+	flex-direction: column;
+	text-align:center;
+	justify-content: flex-end;
+	flex-basis: 100%;
+
+}
+.nav p{
+	font-size: .8125em;
+	margin-top: 11px;
+	margin-bottom: 25px;
+	color: white;
+	font-family: 'PT Serif', serif;
+
+
+
+	
+}
+
+.logo img{
+	width: 75%;
+	margin-left: 14%;
+
+}
+
+.nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin-bottom: 7%;
+
+
+	
+
+}
+
+.nav li {
+	font-size: .8125em;
+	color: red;
+	font-weight: bold;
+	font-family: url(https://fonts.googleapis.com/css?family=PT+Serif);
+
+}
+
+
+.title{
+	display: flex;
+	flex-wrap: wrap;
+	font-size: 3.1em;
+	text-align: center;
+	color: #443527;
+	margin-bottom: 10%;
+	font-family: 'Hammersmith One', sans-serif;
+	justify-content: center;
+
+}
+
+
+
+.hero-text{
+	width: 100%;
+	margin-bottom: 40px;
+	line-height: 1.5;
+	font-size: 1.2em;
+	font-family: url(https://fonts.googleapis.com/css?family=PT+Serif);
+
+}
+
+.form-wrap{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.form-1 , .form-2 , .form-3 , .form-4{
+	background-color: #E2D9CB;
+	border: 1px solid #EBE4DB;
+	padding-top: 7.2%;
+	padding-left: 4.875%;
+	padding-bottom: 4.6%;
+	margin-bottom: 8.2%;
+
+}
+
+.form-title{
+	text-align: center;
+	font-size: 1.5em;
+	margin-bottom: 3.8%;
+	font-family: url(https://fonts.googleapis.com/css?family=PT+Serif);
+
+}
+
+.logo-1{
+	background-size: cover;
+	position:absolute;
+	left: 48%;
+	bottom: 22%;
+	width: 10%;
+	height: 5%;
+}
+
+.other-input{
+	width: 70%;
+}
+
+.access-other-input{
+	width: 70%;
+}
+
+
+h1{
+	color: #443527;
+	font-family: 'PT Serif', serif;
+}
+
+input{
+	margin-bottom: 3.2%;
+}
+
+.search-bar{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 15.7%;
+
+
+}
+
+.button-container{
+	width: 100%;
+	height: 44%;
+}
+button{
+	width:100%;
+	height: 100%;
+	background: #ED4822;
+	color: white;
+}
+h2{
+	text-align: center;
+	padding-top: 4.8%;
+	padding-bottom: 4.8%;
+	color: #EDE6DF;
+	font-family: 'PT Serif', serif;
+	font-weight:bold;
+	font-size: 1.1em;
+}
+
+.tile p{
+	align-items: center;
+    color: #EDE6DF;
+    text-align: center;
+    padding-top: 1%;
+    font-family: 'PT Serif', serif;
+
+}
+.classic  p {
+	 width: 50.75%;
+	  margin-left: 26%;
+}
+.grid-wrap{
+	width: 100%;
+	height: 100%;
+
+}
+
+.tile{
+	background-color: #614C38;
+	margin-bottom: 5%;
+	font-family: url(https://fonts.googleapis.com/css?family=PT+Serif);
+}
+
+.classic{
+	height: 22.4%;
+}
+
+.elvis{
+	height: 25%;
+}
+
+.elvis p{
+	width: 53%;
+	margin-left: 25%;
+}
+
+.pbj{
+	height: 26%;
+}
+.pbj p{
+	width: 51%;
+    margin-left: 26%;
+}
+
+.choc-cov-straw{
+	height: 20%;
+}
+
+.choc-cov-straw p{
+	width: 64%;
+    margin-left: 19%;
+}
+
+.thanksgiving{
+	height: 24%;
+}
+
+.thanksgiving p{
+	width: 49%;
+    margin-left: 26%;
+}
+
+.nutty{
+	height: 19%;
+}
+
+.nutty p{
+	 width: 40%;
+    margin-left: 31%;
+
+}
+
+.pudding{
+	height: 24%;
+}
+
+.pudding p{
+	width: 35%;
+    margin-left: 33%;
+}
+
+.monster{
+	height: 20%;
+}
+
+.monster p{
+	width: 48%;
+    margin-left: 26%;
+}
+
+.salty-sweet{
+	height: 20%;
+}
+
+.salty-sweet p{
+	width: 37%;
+    margin-left: 32%;
+}
+
+.tripple-chocolate{
+	height: 19%;
+}
+
+.tripple-chocolate p{
+	width: 51%;
+    margin-left: 25%;
+}
+
+.fruit-salad{
+	height: 24%;
+}
+
+.fruit-salad p{
+	width: 40%;
+    margin-left: 33%;
+}
+
+.cookies-creme{
+	height: 21%;
+}
+
+.cookies-creme p{
+    width: 42%;
+    margin-left: 31%;
+}
+
+.page-numbers{
+	
+}
+
+
+
+@media screen and (min-width: 735px){
+	
+	.page-wrapper{
+
+		width: 91.42857143%;
+		margin: 0 auto;
+	}
+
+	.logo img{
+		width: 39.73333333%;
+		margin-left:  29.53333333%; 
+
+	}
+
+	.logo-text{
+		margin-left: 29.8;
+
+	}
+
+	.title{
+	display: flex;
+    justify-content: center;
+	}
+
+	.title p{
+		text-align: center;
+		
+	}
+
+	.form-wrap{
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		margin: 0 auto;
+	}
+
+	.form-1{
+		width: 43%;
+		margin-right: 2.721088435%;
+		margin-bottom: 6.2%
+	}
+
+	.form-1 h1{
+		margin-bottom: 10%;
+
+	}
+
+	.form-2{
+		width: 43%;
+		margin-bottom: 6.2%
+
+	}
+
+	.form-3{
+		width: 43%;
+		margin-right: 2.721088435%;
+		margin-bottom: 6.2%
+	}
+
+	.form-4{
+		width: 43%;
+		margin-bottom: 6.2%
+
+	}
+
+	.grid-wrap{
+		margin: 0 auto;
+		
+	}
+
+	.tile{
+
+	width: 48%;
+    height: 24.1%;
+    float: left;
+    margin-right: 2%;
+    margin-bottom: 2%;
+	}
+
+}
+
+@media screen and (min-width: 900px){
+.page-wrapper{
+	width: 90.21686747%;
+	margin: 0 auto;
+
+}
+
+.form-wrap{
+	width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.form-1, .form-2, .form-3{
+	display: flex;
+	flex-direction: column;
+	flex-basis: 26%;
+	margin-right: 2%;
+
+}
+
+.form-4{
+	flex-basis: 92.5%;
+}
+
+.other-input input{
+	display: flex;
+	flex-basis: 30%;
+}
+
+.button-container{
+	width: 14%;
+}
+
+.button-container input{
+	width: 100%;
+}
+
+
+.grid-wrap{
+width: 100%
+
+
+
+}
+
+.tile{
+	width: 31%;
+	float: left;
+}
+
+
+}
+
+@media screen and (min-width: 1200px){
+	.page-wrapper{
+		width: 91.47540984%;
+	
+	}
+
+	.title{
+		display: flex;
+		justify-content: center;
+
+	}
+
+	.form-wrap{
+		width: 100%;
+		height: 50%;
+		margin-bottom: 3%;
+	}
+
+	.form-wrap h1{
+		margin-right: 45%;
+
+
+	}
+
+	.form-1, .form-2, .form-3, .form-4{
+	display: flex;
+	flex-direction: column;
+	flex-basis: 18.5%;
+	margin-right: 1%;
+	align-content: center;
+	height: 59%;
+
+}
+
+.other-input {
+    width: 55%;
+    margin-top: 12%;
+}
+
+.search-bar{
+	margin-bottom: 4%;
+	
+}
+
+
+.tile{
+	width: 23%;
+	float: left;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
